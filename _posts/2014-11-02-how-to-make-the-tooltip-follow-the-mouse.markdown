@@ -48,7 +48,7 @@ public static readonly DependencyProperty AutoMoveProperty =
   DependencyProperty.RegisterAttached("AutoMove",
                                       typeof(bool),
                                       typeof(ToolTipHelper),
-                                      new FrameworkPropertyMetadata(false, AutoMoveCasePropertyChangedCallback));
+                                      new FrameworkPropertyMetadata(false, AutoMovePropertyChangedCallback));
 ```
 
 Now you can use this property on your `ToolTip` in a simple way too.
@@ -85,7 +85,7 @@ namespace SimpleMusicPlayer.Base
       DependencyProperty.RegisterAttached("AutoMove",
                                           typeof(bool),
                                           typeof(ToolTipHelper),
-                                          new FrameworkPropertyMetadata(false, AutoMoveCasePropertyChangedCallback));
+                                          new FrameworkPropertyMetadata(false, AutoMovePropertyChangedCallback));
 
     /// <summary>
     /// Enables a ToolTip to follow the mouse cursor.
@@ -136,7 +136,7 @@ namespace SimpleMusicPlayer.Base
       element.SetValue(AutoMoveVerticalOffsetProperty, value);
     }
 
-    private static void AutoMoveCasePropertyChangedCallback(DependencyObject dependencyObject, DependencyPropertyChangedEventArgs eventArgs)
+    private static void AutoMovePropertyChangedCallback(DependencyObject dependencyObject, DependencyPropertyChangedEventArgs eventArgs)
     {
       var toolTip = (ToolTip)dependencyObject;
       if (eventArgs.OldValue != eventArgs.NewValue && eventArgs.NewValue != null)
