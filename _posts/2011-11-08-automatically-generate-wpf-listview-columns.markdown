@@ -6,8 +6,8 @@ comments:   true
 categories: [wpf,c#,stackoverflow]
 ---
 
-Sometimes it's not necessary to display a list of elements with a `DataGrid`, but for a simple short way we can use the lighter `ListView`.
-My solution at [stackoverflow](http://stackoverflow.com/a/8050721/920384) generates `ListView` columns for all properties for a given datatype automatically.
+Sometimes it's not necessary to display a list of elements with a `DataGrid`, for a simple short way we can use the lighter `ListView`.
+My solution, also posted at [stackoverflow](http://stackoverflow.com/a/8050721/920384), generates a `ListView` with columns for all properties with a given datatype automatically.
 
 ```csharp
 public class BaseListView : ListView
