@@ -1,25 +1,17 @@
-# Site settings
-author      : Jan Karger
-nickname    : punker76
-title       : jkarger.de
-subtitle    : Punk's not dead!
-description : > # this means to ignore newlines until "baseurl:"
-  Hi, this is my private blog about some thoughts and other stuff.
-baseurl     : "" # the subpath of your site, e.g. /blog/
-url         : "http://jkarger.de" # the base hostname & protocol for your site
+name: punker76
+description: "Husband, dad, softer programmer, developer, coder, MahApps.Metro collaborator... Punk's not dead!"
+meta_description: "Hi, this is my private blog about some thoughts and other stuff."
 
-twitter_username : punker76
-github_username  : punker76
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://jkarger.de'
+permalink: /archive/:year/:month/:day/:title/
 
-# Build settings
-markdown      : redcarpet # or kramdown
-redcarpet :
-  extensions  : ["tables"]
-paginate      : 5
-permalink     : /archive/:year/:month/:day/:title/
-
-# comments -> disqus
-comments :
-  provider : disqus
-  disqus :
-    short_name : punker76
+# Details for the RSS feed generator
+url:            'http://jkarger.de'
+author:         'punker76'
