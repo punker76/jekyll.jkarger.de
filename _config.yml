@@ -16,6 +16,10 @@ permalink: /archive/:year/:month/:day/:title/
 url:            'http://jkarger.de'
 author:         'punker76'
 
+# Disqus Comments
+disqus_short_name: jkarger
+disqus_show_comment_count: true
+
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap

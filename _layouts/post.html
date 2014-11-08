@@ -81,7 +81,7 @@ post_class: post-template
             {% include share.html %}
             
             <!-- Disqus comments -->
-            {% if page.disqus %}
+            {% if site.disqus_short_name and page.comments != false %}
                 {% include disqus.html %}
             {% endif %}
             
