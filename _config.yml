@@ -15,3 +15,7 @@ permalink: /archive/:year/:month/:day/:title/
 # Details for the RSS feed generator
 url:            'http://jkarger.de'
 author:         'punker76'
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
