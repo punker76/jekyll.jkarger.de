@@ -68,7 +68,7 @@ Now you can use this property on your `ToolTip` in a simple way.
 </Button>
 ```
 
-A complete example (incl. the `ToolTipHelper` class) can be found at [GitHub](https://github.com/punker76/code-samples/tree/master/ToolTipAutoMoveSample).
+A complete example (incl. the `ToolTipHelper` class) can be found on [GitHub](https://github.com/punker76/code-samples/tree/master/ToolTipAutoMoveSample).
 
 Here is the code for the `ToolTipHelper`.
 
