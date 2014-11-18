@@ -343,12 +343,13 @@ pre {
     width: 100%;
     padding: 10px;
     font-family: Inconsolata, monospace, sans-serif;
-    font-size: 0.9em;
+    font-size: 0.85em;
     white-space: pre;
+    line-height: 1.5em;
     overflow: auto;
-    overflow-x: scroll;
+    overflow-x: auto;
     background: #F7FAFB;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 pre code, tt {
@@ -358,6 +359,23 @@ pre code, tt {
     background: transparent;
     border: none;
     padding: 0;
+}
+
+.highlight pre code * {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.highlight pre {
+    display: inline-block;
+    white-space: pre;
+    overflow-x: auto;
+}
+
+.highlight pre code {
+    display: inline-block;
+    white-space: pre;
+    overflow-x: auto;
 }
 
 kbd {
