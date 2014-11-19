@@ -6,7 +6,7 @@ comments:   true
 categories: [modern ui,mahapps,mahapps.metro,wpf,c#]
 ---
 
-As a **MahApps.Metro** member I see always questions about
+As a **MahApps.Metro** member I'am often confronted with questions like:
 
 > How do I start with MahApps.Metro?
 
@@ -14,9 +14,8 @@ As a **MahApps.Metro** member I see always questions about
 
 > Where is the shadow around the main window?
 
-and so on.
 
-Now I can say, he, we have a nice looking [web page](http://mahapps.com) where you can look at the [quick start guide](http://mahapps.com/guides/quick-start.html), but I want to help users/developers everywhere.
+Now I could say, hey, we have a nice [web page](http://mahapps.com) where you can look at the [quick start guide](http://mahapps.com/guides/quick-start.html), but I want to help users/developers everywhere.
 
 So, this article will show you how fast it is to get a modern UI using MahApps.Metro.
 
@@ -84,7 +83,7 @@ Adding 'MahApps.Metro 0.14.0.0' to MahAppsMetroSample.
 Successfully added 'MahApps.Metro 0.14.0.0' to MahAppsMetroSample.
 ```
 
-After installing open up `MainWindow.xaml` and put this reference attribute inside the opening `Window` tag:
+After installing, open up `MainWindow.xaml` and put this reference attribute inside the opening `Window` tag:
 
 ```xml
 xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
@@ -135,7 +134,7 @@ namespace MahAppsMetroSample
 }
 ```
 
-All of `MahApp.Metro's` resources are contained within separate resource dictionaries. In order for most of the controls to adopt the MahApps.Metro accent and theme, you will need to add the following ResourceDictionaries to your App.xaml (**Make sure that all file names are Case Sensitive!**).
+All of `MahApp.Metro's` resources are contained within separate resource dictionaries. In order to adopt the MahApps.Metro accent and theme for most of the controls , you will need to add the following ResourceDictionaries to your App.xaml (**Make sure that all file names are spelled correct. They are Case Sensitive!**).
 
 ```xml
 <Application x:Class="MahAppsMetroSample.App"
@@ -170,7 +169,7 @@ and themes
 
 ### Borders
 
-The `MetroWindow` has no border by default, but you can choose between 3 different ways.
+The `MetroWindow` has no border by default, but you can choose between 3 different borders.
 
 #### A normal border
 
