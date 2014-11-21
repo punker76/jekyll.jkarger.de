@@ -20,6 +20,9 @@ author:         'punker76'
 disqus_short_name: jkarger
 disqus_show_comment_count: true
 
+# Google Analytics
+google_analytics_tracking_id: UA-56992653-1
+
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
