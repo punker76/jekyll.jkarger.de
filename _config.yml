@@ -16,6 +16,14 @@ permalink: /archive/:year/:month/:day/:title/
 url:            'http://jkarger.de'
 author:         'punker76'
 
+# Github repositories
+github_user: punker76
+github_repo_url: https://github.com/punker76/jekyll.jkarger.de
+
+# Twitter
+twitter_user: punker76
+twitter_tweet_button: true
+
 # Disqus Comments
 disqus_short_name: jkarger
 disqus_show_comment_count: true
