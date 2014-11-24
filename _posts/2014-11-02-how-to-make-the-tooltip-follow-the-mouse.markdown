@@ -3,7 +3,7 @@ layout:     post
 title:      "How to make the ToolTip follow the mouse?"
 date:       2014-11-02 14:22:31 +0100
 comments:   true
-categories: [wpf,c#]
+categories: [WPF,C#]
 ---
 
 In a project of mine I needed a `ToolTip`. That's easy, I know, but I want a `ToolTip` that follows the mouse and not the default behavior. Normally a `ToolTip` opens and stays at this position on the target element. After leaving the element the `ToolTip` closes.

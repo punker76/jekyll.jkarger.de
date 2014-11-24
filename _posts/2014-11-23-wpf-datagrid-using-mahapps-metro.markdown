@@ -3,7 +3,7 @@ layout:     post
 title:      "WPF DataGrid using MahApps.Metro"
 date:       2014-11-23 13:10:17 +0100
 comments:   true
-categories: [modern ui,mahapps,mahapps.metro,wpf,c#]
+categories: [Modern UI,MahApps.Metro,WPF,C#]
 ---
 
 `MahApps.Metro` ships two cool styles to beautify the `DataGrid` control that ships with .NET 4.0 by default. With this styling you can use filtering, grouping, sorting and other standard features that you would expect of a `DataGrid`. It also contains a `DataGridCheckBoxColumn` style as well as a custom `DataGridNumericUpDownColumn` style.

@@ -3,7 +3,7 @@ layout:     post
 title:      "How to set the scrolling lines for a WPF ListBox?"
 date:       2014-11-04 22:54:02 +0100
 comments:   true
-categories: [wpf,c#]
+categories: [WPF,C#]
 ---
 
 The default behavior for scrolling with the mouse wheel on a `ListBox` or `ListView` scrolls the entire view 3 lines up or down. That's for the most scenarios ok, but sometimes it could be necessary to scroll only 1 or n lines.
