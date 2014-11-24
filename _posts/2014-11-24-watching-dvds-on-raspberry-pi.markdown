@@ -47,14 +47,19 @@ Now you can buy your licence at [raspberrypi.com](http://www.raspberrypi.com) wi
 To do this on `OpenELEC` (connected via ssh) follow these steps:
 
 1. remount the `/flash` folder as read write
+
 ```bash
-OpenELEC:~ mount /flash -o remount,rw
+OpenELEC:~ # mount /flash -o remount,rw
 ```
+
 2. now it's possible to edit the file with `nano` (a light weight console based text editor)
+
 ```bash
-OpenELEC:~ nano /flash/config.txt
+OpenELEC:~ # nano /flash/config.txt
 ```
+
 3. scroll to the bottom of the file at replace the zero filled licences with your one and save the file by typing `CTRL-X` and typing `Y`.
+
 ```bash
 ################################################################################
 # License keys to enable GPU hardware decoding for various codecs
@@ -66,14 +71,18 @@ OpenELEC:~ nano /flash/config.txt
 # decode_DTS=0x00000000
 # decode_DDP=0x00000000
 ```
+
 4. now make sure the changes are written to your SD card
+
 ```bash
-OpenELEC:~ sync
+OpenELEC:~ # sync
 ```
+
 5. finally remount the file system as read only and reboot your Raspberry Pi.
+
 ```bash
-OpenELEC:~ mount /flash -o remount,ro
-OpenELEC:~ reboot
+OpenELEC:~ # mount /flash -o remount,ro
+OpenELEC:~ # reboot
 ```
 
 Restart your raspi and have fun!
