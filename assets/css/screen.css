@@ -177,10 +177,10 @@ body {
     height: 100%;
     max-height: 100%;
     /* font-family: "Merriweather", serif; */
-    font-family: "Helvetica", sans-serif;
-    letter-spacing: 0.0rem;
-    font-size: 1.7rem;
-    line-height: 1.75em;
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: 0.01rem;
+    font-size: 2rem;
+    line-height: 1.5em;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
@@ -246,7 +246,7 @@ p, ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-    margin: 0 0 1.75em 0;
+    margin: 0 0 1.7em 0;
 }
 
 ol, ul {
@@ -296,8 +296,8 @@ hr {
 blockquote {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.75em 0 1.75em -2.2em;
-    padding: 0 0 0 1.75em;
+    margin: 1.7em 0 1.7em -2.2em;
+    padding: 0 0 0 1.6em;
     border-left: #4A4A4A 0.4em solid;
 }
 
@@ -338,7 +338,7 @@ code, tt {
 pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0 0 1.75em 0;
+    margin: 0 0 1.7em 0;
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 10px;
@@ -397,7 +397,7 @@ kbd {
 table {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.75em 0;
+    margin: 1.7em 0;
     width: 100%;
     max-width: 100%;
     background-color: transparent;
@@ -439,7 +439,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 
 iframe, .fluid-width-video-wrapper {
     display: block;
-    margin: 1.75em 0;
+    margin: 1.6em 0;
 }
 
 /* When a video is inside the fitvids wrapper, drop the
@@ -741,7 +741,7 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
@@ -1232,8 +1232,7 @@ body:not(.post-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
-    letter-spacing: 0.01rem;
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
     font-size: 1.7rem;
 }
 .author-meta span {
