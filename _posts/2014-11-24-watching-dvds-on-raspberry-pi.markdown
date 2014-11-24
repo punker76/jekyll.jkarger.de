@@ -1,4 +1,4 @@
-  ---
+---
 layout:     post
 title:      "Watching DVDs on Raspberry Pi"
 date:       2014-11-24 10:57:48 +0100
