@@ -6,7 +6,7 @@ comments:   true
 categories: [Modern UI,MahApps.Metro,WPF,C#]
 ---
 
-[MahApps.Metro][] is a toolkit for creating metro-styled, modern UI WPF applications. A guide can be found in my [blog post](http://jkarger.de/archive/2014/11/18/modern-ui-with-mahapps-metro) or on [GitHub](https://github.com/MahApps/MahApps.Metro) or the official web page [http://mahapps.com](http://mahapps.com).
+[MahApps.Metro](https://github.com/MahApps/MahApps.Metro) is a toolkit for creating metro-styled, modern UI WPF applications. A guide can be found in my [blog post](http://jkarger.de/archive/2014/11/18/modern-ui-with-mahapps-metro) or on [GitHub](https://github.com/MahApps/MahApps.Metro) or the official web page [http://mahapps.com](http://mahapps.com).
 
 You can change the accent or theme of a `MahApps.Metro` application in different ways.
 
@@ -46,7 +46,7 @@ The fastest way is to specify the accent and theme via the `App.xaml`.
 </Application>
 ```
 
-![](screenshots{{ site.url }}/images/mahapps_themes_01.png)
+![]({{ site.url }}/images/mahapps_themes_01.png)
 
 ### via ThemeManager
 
@@ -177,4 +177,4 @@ You can also create an accent resource dictionary dynamically by using a specifi
 
 A complete example can be found on [GitHub](https://github.com/punker76/code-samples).
 
-  [MahApps.Metro]: https://github.com/MahApps/MahApps.Metro
+![]({{ site.url }}/images/mahapps_themes_02.png)
