@@ -1,34 +1,25 @@
 ---
-layout: post
-title: "logitech k400 with raspberry pi"
-date: 2012-10-29 21:59
-comments: true
-categories: [raspberry pi, linux, debian, xbmc]
-keywords: raspberry pi,linux,debian,xbmc,openelec,raspbmc,xbian,logitech,k400,language,sprache
-description: working with logitech k400 and raspberry pi
+layout:     post
+title:      "Logitech K400 and Raspberry Pi"
+date:       2012-10-29 21:59:00 +0100
+comments:   true
+categories: [Raspberry Pi,OpenELEC,Raspbmc,XBian,XMBC]
 ---
 
-sometimes the [debian wheezy raspbian](http://www.raspberrypi.org/downloads) image, [Raspbmc](http://www.raspbmc.com) and [XBian](http://xbian.org) don't find my logitech k400 keyboard.
-if you have the same problem like me, then this little tipp would help you.
+Sometimes the [debian wheezy raspbian](http://www.raspberrypi.org/downloads) image, [Raspbmc](http://www.raspbmc.com) and [XBian](http://xbian.org) can't find my Logitech K400 keyboard. This tip should help.
 
-put this lines
-{% codeblock lang:bash %}
-sleep 5
-rmmod hid-logitech-dj
-modprobe hid-logitech-dj
-{% endcodeblock %}
-in your
-{% codeblock lang:bash %}
-/etc/rc.local
-{% endcodeblock %}
-if you have german language problems with LXDE, then put this line
-{% codeblock lang:bash %}
-setxkbmap -layout "de,de"
-{% endcodeblock %}
-in your
-{% codeblock lang:bash %}
-/etc/xdg/lxsession/LXDE/autostart
-{% endcodeblock %}
-then reboot your raspbi and have fun.
+- Put this lines in the `/etc/rc.local`
+  
+  ```bash
+  sleep 5
+  rmmod hid-logitech-dj
+  modprobe hid-logitech-dj
+  ```
+  
+- If you have german language problems with LXDE, then put this line in your `/etc/xdg/lxsession/LXDE/autostart`
+  
+  ```bash
+  setxkbmap -layout "de,de"
+  ```
 
-this works for me.
+Reboot the **RaspBi** and have fun.
