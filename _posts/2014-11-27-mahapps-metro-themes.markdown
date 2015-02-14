@@ -10,7 +10,7 @@ categories: [Modern UI,MahApps.Metro,WPF,C#]
 
 You can change the accent or theme of a `MahApps.Metro` application in different ways.
 
-All of `MahApp.Metro's` accents and themes are contained within separate resource dictionaries (**Make sure that all file names are spelled correct. They are Case Sensitive!**).
+All of `MahApps.Metro's` accents and themes are contained within separate resource dictionaries (**Make sure that all file names are spelled correct. They are Case Sensitive!**).
 
 You can choose between this available accents
 
