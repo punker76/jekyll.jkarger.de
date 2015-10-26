@@ -1,3 +1,11 @@
+---
+layout   : page
+title    : Now
+date     : 2015-10-26 21:44
+comments : true
+permalink: /now/
+---
+
 # What I’m doing now
 
 I'm living and working in Germany [Aachen](https://goo.gl/maps/YVPxbSf9SA42). I'm also a refugee, coming from [GDR](https://goo.gl/maps/Epnt9NBgNZp).
