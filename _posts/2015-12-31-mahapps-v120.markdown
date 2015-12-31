@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "MahApps.Metro v1.2.0"
+date:       2015-12-31 18:28:33 +0100
+comments:   true
+categories: [Modern,UI,MUI,MahApps.Metro,WPF,C#,XAML,OSS]
+---
+
+I would like to thank all of you awesome users, testers and contriutors. It was a cool year of MahApps (used at Build 2015, published in magazine, pluralsight course https://www.pluralsight.com/courses/mahappsdotmetro-creating-modern-wpf-apps).
+
+So I think it's time for a new release after over 76000 downloads for v1.1.2!!!
+
+Here is it
+
+- [https://www.nuget.org/packages/MahApps.Metro/1.2.0](https://www.nuget.org/packages/MahApps.Metro/1.2.0)
+- [https://github.com/MahApps/MahApps.Metro](https://github.com/MahApps/MahApps.Metro)
+
+Happy new year!!!
+
+Jan
