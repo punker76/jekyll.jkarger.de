@@ -6,7 +6,7 @@ comments:   true
 categories: [Modern,UI,MUI,MahApps.Metro,WPF,C#,XAML,OSS]
 ---
 
-I would like to thank all of you awesome users, testers and contriutors. It was a cool year of MahApps (used at Build 2015, published in magazine, pluralsight course https://www.pluralsight.com/courses/mahappsdotmetro-creating-modern-wpf-apps).
+I would like to thank all of you awesome [users, testers and contriutors](https://github.com/MahApps/MahApps.Metro/graphs/contributors). It was a cool year of MahApps (used at Build 2015, published in magazine, a [pluralsight course](https://www.pluralsight.com/courses/mahappsdotmetro-creating-modern-wpf-apps)).
 
 So I think it's time for a new release after over 76000 downloads for v1.1.2!!!
 
