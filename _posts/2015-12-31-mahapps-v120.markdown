@@ -6,11 +6,13 @@ comments:   true
 categories: [Modern,UI,MUI,MahApps.Metro,WPF,C#,XAML,OSS]
 ---
 
-I would like to thank all of you awesome [users, testers and contriutors](https://github.com/MahApps/MahApps.Metro/graphs/contributors). It was a cool year of MahApps (used at Build 2015, published in magazine, a [pluralsight course](https://www.pluralsight.com/courses/mahappsdotmetro-creating-modern-wpf-apps)).
+So MahApps.Metro v1.2.2 is on the road, now I want say thank you to all awesome users, testers and contributors. http://mahapps.com
+
+I want say thank you to all awesome [users, testers and contributors](https://github.com/MahApps/MahApps.Metro/graphs/contributors). It was a cool year of MahApps (used at Build 2015, published in [magazine](http://www.dotnetpro.de/), published on [pluralsight](https://www.pluralsight.com) with this awesome [course](https://www.pluralsight.com/courses/mahappsdotmetro-creating-modern-wpf-apps) by [Mark Heath](http://mark-dot-net.blogspot.de/p/about-me.html)).
 
 So I think it's time for a new release after over 76000 downloads for v1.1.2!!!
 
-Here is it
+And here is it
 
 - [https://www.nuget.org/packages/MahApps.Metro/1.2.0](https://www.nuget.org/packages/MahApps.Metro/1.2.0)
 - [https://github.com/MahApps/MahApps.Metro](https://github.com/MahApps/MahApps.Metro)
