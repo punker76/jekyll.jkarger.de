@@ -1,6 +1,6 @@
 name: punker76
-description: "Husband, dad, software programmer, developer, coder, MahApps.Metro collaborator... Punk's not dead!"
-meta_description: "Hi, this is my private blog about some thoughts and other stuff."
+description: "Husband Dad T1DM Developer Coder for OSS WPF XAML C# Pascal Delphi Developer of http://mahapps.com Born in east germany. Vinyls and Punks not dead!"
+meta_description: "This is the private blog from Jan about some thoughts and other stuff."
 
 markdown: redcarpet
 redcarpet:
@@ -32,5 +32,4 @@ disqus_show_comment_count: true
 google_analytics_tracking_id: UA-56992653-1
 
 gems:
-  - jekyll-redirect-from
   - jekyll-sitemap
