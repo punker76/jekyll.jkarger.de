@@ -62,3 +62,53 @@ newWindowThread.IsBackground = true;
 // Start the thread
 newWindowThread.Start();
 ```
+
+It's also possible to use a custom `MetroWindow` instead creating an empty window. In this case it's necessary to put the `MahApps` resources in the XAML code of the window itself.
+
+```xaml
+<controls:MetroWindow x:Class="MetroDemo.ExampleWindows.CustomWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                      Title="CustomWindow"
+                      Width="300"
+                      Height="300"
+                      mc:Ignorable="d">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Red.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+
+        <ComboBox x:Name="comboBox1"
+                  Width="170"
+                  Height="48"
+                  Margin="10"
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Top">
+            <ComboBoxItem>Test 1</ComboBoxItem>
+            <ComboBoxItem>Test 2</ComboBoxItem>
+        </ComboBox>
+
+    </Grid>
+</controls:MetroWindow>
+```
+
+Simply change
+
+```csharp
+var testWindow = new CustomWindow()
+```
+
+![2016-01-22_16h12_04](https://cloud.githubusercontent.com/assets/658431/12514416/87ab92a0-c123-11e5-9948-26dabf1fad13.png)
