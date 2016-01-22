@@ -65,7 +65,7 @@ newWindowThread.Start();
 
 It's also possible to use a custom `MetroWindow` instead creating an empty window. In this case it's necessary to put the `MahApps` resources in the XAML code of the window itself.
 
-```xaml
+```xml
 <controls:MetroWindow x:Class="MetroDemo.ExampleWindows.CustomWindow"
                       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
