@@ -8,20 +8,18 @@ categories: [UI,Thread,WPF,MahApps.Metro,C#,XAML]
 
 So, as the title says, people often wants to show a window in a separate ui thread. If we now google about this we can find many articles which explains the hole situation and shows also some code snippets. But sometimes there are situations where this code not works, one of this is often asked by people who uses [MahApps.Metro](https://github.com/MahApps/MahApps.Metro).
 
-> How can I run a MetroWindow in a separate thread?
-
-And this people get also this exception:
+> How can I run a MetroWindow in a separate thread? Can you explain why I get this exception?
 
 ```
 Exception thrown: 'System.Windows.Markup.XamlParseException' in PresentationFramework.dll
 ```
 
-Here are two blog articles which explains the solution:
+So, here are two blog articles which explains the problem and also explain a solution:
 
 - [Launching a WPF Window in a Separate Thread](http://reedcopsey.com/2011/11/28/launching-a-wpf-window-in-a-separate-thread-part-1/) by Reed Copsey, Jr.
 - [Threading model in WPF and application resources](http://sergey-yatsenko.blogspot.de/2010/09/threading-model-in-wpf-and-application.html) by Sergey Yatsenko
 
-And here is my solution with MahApps.Metro that works in my machine™.
+Here is my solution with MahApps.Metro that works on my machine™.
 
 ```csharp
 // Create a thread
