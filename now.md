@@ -24,9 +24,14 @@ My day time goes on these things:
 
 Here is a short list of open source projects where I'm doing some stuff.
 
+You can appreciate my work by hit the star button on my [GitHub repositories](https://github.com/punker76) or doing some pledgie for [MahApps](https://pledgie.com/campaigns/31038) or [GongSolutions.WPF.DragDrop](https://pledgie.com/campaigns/31030), it will be appreciated too.
+
 - [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) A toolkit for creating Metro / Modern UI styled WPF apps. [http://mahapps.com](http://mahapps.com/)
 - [GongSolutions.WPF.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) A drag'n'drop framework for WPF.
 - [Simple Music Player](https://github.com/punker76/simple-music-player) SimpleMP or Simple Music Player is a simple and easy to use music player for free. It plays the most common music files (mp3, ogg, wma, wav) in a simple way.
+
+And Contributing to
+
 - [Material Design In XAML Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) Google Material Design in XAML & WPF, for C# & VB.Net [http://materialdesigninxaml.net](http://materialdesigninxaml.net/)
 - [Font-Awesome-WPF](https://github.com/charri/Font-Awesome-WPF) WPF controls for the iconic font and CSS toolkit [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
 
