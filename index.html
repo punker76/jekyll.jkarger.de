@@ -13,31 +13,29 @@ now: 'now.html'
                     <img src="{{ page.logo }}" alt="Blog Logo" />
                 </a>
             {% endif %}
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+        <!--<a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>-->
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">Subscribe</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
-                {% if site.description %} {{ site.description }} {% endif %}
+                {% if site.description %} {{ site.description }}. {% endif %}
                 <div class="social">
                     {% if site.twitter_user %}
-                        <a class="twitter" href="http://twitter.com/{{ site.twitter_user }}" title="Twitter">Twitter</a>
+                        <a class="icon-twitter" href="http://twitter.com/{{ site.twitter_user }}" title="Twitter"></a>
                     {% endif %}
                     {% if site.github_user %}
-                        <a class="github" href="https://github.com/{{ site.github_user }}" title="GitHub">GitHub</a>
+                        <a href="https://github.com/{{ site.github_user }}" title="GitHub">GitHub</a>
                     {% endif %}
-                    {% if site.subscribe_rss %}
-                        <a class="rss" href="{{ site.subscribe_rss }}" title="RSS">RSS</a>
+                    <br />
+                    <a href='https://github.com/punker76/simple-music-player'> Simple Music Player </a>
+                    <!--{% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}-->
+                    {% if page.now %}
+                        <br />
+                        <a href='{{ site.baseurl }}{{ page.now }}'>  NOW  </a>
                     {% endif %}
                 </div>
-                <a href='https://github.com/punker76/simple-music-player'> Simple Music Player </a>
-                <!--{% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}-->
-                <!--{% if page.now %} <a href='{{ site.baseurl }}{{ page.now }}'> NOW </a> {% endif %}-->
-                <ul>
-                    <li style="display:inline;">MahApps.Metro <a href='https://pledgie.com/campaigns/31038'><img alt='Click here to lend your support to: MahApps.Metro and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/31038.png?skin_name=chrome' border='0' ></a></li>
-                    <li style="display:inline;">GongSolutions.WPF.DragDrop <a href='https://pledgie.com/campaigns/31030'><img alt='Click here to lend your support to: GongSolutions.WPF.DragDrop and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/31030.png?skin_name=chrome' border='0' ></a></li>
-                </ul> 
             </h2>
         </div>
     </div>

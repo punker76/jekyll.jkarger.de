@@ -141,6 +141,10 @@ table { border-collapse: collapse; border-spacing: 0; }
     content: "\f602";
     font-size: 1.1em;
 }
+.icon-github:before {
+    content: "\f09b";
+    font-size: 1.1em;
+}
 .icon-google-plus:before {
     content: "\f603";
 }
@@ -176,11 +180,10 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    /* font-family: "Merriweather", serif; */
-    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
-    font-size: 2rem;
-    line-height: 1.5em;
+    font-size: 1.8rem;
+    line-height: 1.75em;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
@@ -246,7 +249,7 @@ p, ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-    margin: 0 0 1.7em 0;
+    margin: 0 0 1.75em 0;
 }
 
 ol, ul {
@@ -296,8 +299,8 @@ hr {
 blockquote {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.7em 0 1.7em -2.2em;
-    padding: 0 0 0 1.6em;
+    margin: 1.75em 0 1.75em -2.2em;
+    padding: 0 0 0 1.75em;
     border-left: #4A4A4A 0.4em solid;
 }
 
@@ -338,44 +341,25 @@ code, tt {
 pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0 0 1.7em 0;
+    margin: 0 0 1.75em 0;
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 10px;
     font-family: Inconsolata, monospace, sans-serif;
-    font-size: 0.85em;
+    font-size: 0.9em;
     white-space: pre;
-    line-height: 1.5em;
     overflow: auto;
-    overflow-x: auto;
     background: #F7FAFB;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 pre code, tt {
     font-size: inherit;
-    white-space: -moz-pre;
-    white-space: pre;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
     background: transparent;
     border: none;
     padding: 0;
-}
-
-.highlight pre code * {
-  white-space: nowrap;
-  overflow-x: auto;
-}
-
-.highlight pre {
-    display: inline-block;
-    white-space: pre;
-    overflow-x: auto;
-}
-
-.highlight pre code {
-    display: inline-block;
-    white-space: pre;
-    overflow-x: auto;
 }
 
 kbd {
@@ -397,7 +381,7 @@ kbd {
 table {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.7em 0;
+    margin: 1.75em 0;
     width: 100%;
     max-width: 100%;
     background-color: transparent;
@@ -439,7 +423,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 
 iframe, .fluid-width-video-wrapper {
     display: block;
-    margin: 1.6em 0;
+    margin: 1.75em 0;
 }
 
 /* When a video is inside the fitvids wrapper, drop the
@@ -515,53 +499,6 @@ margin on the iframe, cause it breaks stuff. */
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
-
-
-
-.social {
-    float: none;
-    margin-right: 0;
-}
-.social a:last-of-type { margin-right: 0 }
-.social a {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    display: -moz-inline-stack;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    zoom: 1;
-    *display: inline;
-    text-indent: -9999px;
-    margin: 0 15px 15px 0;
-    opacity: 0.5;
-    width: 28px;
-    height: 28px;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-}
-.social a:hover { opacity: 1 }
-.social a.twitter {
-    background: url('/assets/social/twitter.png?1385702818') center no-repeat #55cff8;
-    border: 1px solid #55CFF8;
-}
-.social a.twitter:hover { border: 1px solid #24c1f6 }
-.social a.github {
-    background: url('/assets/social/github.png?1385702818') center no-repeat #afb6ca;
-    border: 1px solid #afb6ca;
-}
-.social a.github:hover { border: 1px solid #909ab6 }
-.social a.rss {
-    background: url('/assets/social/rss.png?1385702818') center no-repeat #ef7522;
-    border: 1px solid #EF7522;
-}
-.social a.rss:hover { border: 1px solid #cf5d0f }
-
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
@@ -741,7 +678,7 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
@@ -1232,7 +1169,8 @@ body:not(.post-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    font-family: "Merriweather", serif;
+    letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
 .author-meta span {
