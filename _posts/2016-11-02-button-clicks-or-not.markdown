@@ -3,7 +3,6 @@ layout:     post
 title:      "Button clicks or not"
 date:       2016-11-02 22:51:57 +0100
 comments:   true
-published:  false
 categories: [WPF,C#]
 ---
 
