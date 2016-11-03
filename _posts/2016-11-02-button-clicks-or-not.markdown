@@ -28,7 +28,7 @@ private async void ButtonClick(object sender, RoutedEventArgs e)
 }
 ```
 
-This sample uses the `MahApps.Metro` message dialog, so if you want to test this code you must download the [NuGet package](https://www.nuget.org/packages/MahApps.Metro/).
+This sample uses the `MahApps.Metro` library, so if you want to test this code you must download the [NuGet package](https://www.nuget.org/packages/MahApps.Metro/).
 
 ```xml
 <StackPanel xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
