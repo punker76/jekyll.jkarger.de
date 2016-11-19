@@ -2,7 +2,7 @@
 title: punker76
 description: 'another private blog with developer stuff and some thoughts'
 url: 'http://jkarger.de'
-baseurl: '/punker76/'
+baseurl: '/'
 google_analytics: 'UA-56992653-1'
 disqus_shortname: 'jkarger'
 
