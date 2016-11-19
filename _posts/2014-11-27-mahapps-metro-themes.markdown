@@ -3,7 +3,8 @@ layout:     post
 title:      "MahApps.Metro Themes"
 date:       2014-11-27 17:47:14 +0100
 comments:   true
-categories: [Modern UI,MahApps.Metro,WPF,C#]
+categories: [Develop,MahApps.Metro,Tips&Tricks]
+tags:       [WPF,Xaml,C#,UI,MahApps.Metro]
 ---
 
 [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) is a toolkit for creating metro-styled, modern UI WPF applications. A guide can be found in my [blog post](http://jkarger.de/archive/2014/11/18/modern-ui-with-mahapps-metro) or on [GitHub](https://github.com/MahApps/MahApps.Metro) or the official web page [http://mahapps.com](http://mahapps.com).

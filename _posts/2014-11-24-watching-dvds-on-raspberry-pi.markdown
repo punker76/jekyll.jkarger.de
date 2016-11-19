@@ -3,7 +3,8 @@ layout:     post
 title:      "Watching DVDs on Raspberry Pi"
 date:       2014-11-24 10:57:48 +0100
 comments:   true
-categories: [Raspberry Pi,OpenELEC,Raspbmc,XBian,XMBC]
+categories: [Hardware,IoT,Tips&Tricks]
+tags:       [Raspberry Pi,OpenELEC,Raspbmc,XBian,XMBC]
 ---
 
 If you want watching DVDs on your [Raspberry Pi](http://www.raspberrypi.org) with an installed [OpenELEC](http://openelec.tv), [Raspbmc](http://www.raspbmc.com) or [XBian](http://xbian.org) you must buy a [MPEG-2](http://www.raspberrypi.com) licence. But not afraid, it's only a minimal amount.

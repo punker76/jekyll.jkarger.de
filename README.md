@@ -1,56 +1,49 @@
 # jekyll.jkarger.de
 
-Yes, this is the jekyll source for my blog. And yes, this one is mine.
+Yes, this is the jekyll source for my blog. The content is mine, the [theme](https://github.com/joshgerdes/jekyll-uno) is from @joshgerdes
 
-## Run it locally
+# jekyll-uno
 
-The following command builds the site.
+Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
-```shell
-jekyll build
-```
+> :warning:
+  This theme requires ruby and rubygems installed
 
-The following runs it on ```http://localhost:1976/```
+### Features
 
-```shell
-jekyll serve --port 1976
-```
-
-# Kasper
-
-This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
-Feel free to fork, change, modify and re-use it.
-
-## How to use it
-
-Simply clone this repository, and then run `jekyll serve` inside the directory.
-
-Kasper theme includes:
-
+* Clean layout
+* Resposive layout
 * Pagination
-* Rss
-* Google Analytics Tracking code
-* Code Syntax Highlight
-* Author's profile with picture
-* Disqus comments
+* Syntax highlighting
+* Social links
+* Tags listing page
+* Categories listing page
+* Google Analytics integration
+* Disqus integration
 
-## Screenshots
+---
 
-![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
-![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
+### Install and Test
 
+1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
+2. Enter the folder: `cd jekyll-uno/`
+3. If you don't have bundler installed: `gem install bundler`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `bundle exec jekyll serve --watch`
 
-## Thanks 
-Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll. 
-I've also added few things specific to Jekyll and some minor style changes.
+Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
 
-## Copyright & License
+---
 
-Copyright (C) 2013 Ghost Foundation - Released under the MIT License.
+### Demo and Download
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+[Demo](http://joshgerdes.com/jekyll-uno/)
+[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+![jekyll-uno - free Jekyll theme](/screenshot.png)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).

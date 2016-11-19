@@ -3,7 +3,8 @@ layout:     post
 title:      "Button clicks or not"
 date:       2016-11-02 22:51:57 +0100
 comments:   true
-categories: [WPF,C#]
+categories: [Develop,MahApps.Metro,Tips&Tricks]
+tags:       [WPF,Xaml,C#,UI,MahApps.Metro,StackOverflow]
 ---
 
 How can I prevent a Button click if there is another clickable Control inside the Button?
