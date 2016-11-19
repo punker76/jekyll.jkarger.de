@@ -3,7 +3,8 @@ layout:     post
 title:      "Set NuGet pre-release build numbers with leading zeros on TeamCity"
 date:       2014-11-23 22:34:12 +0100
 comments:   true
-categories: [NuGet,TeamCity,CI,Powershell]
+categories: [Develop,MahApps.Metro,Tips&Tricks]
+tags:       [NuGet,TeamCity,CI,Powershell,MahApps.Metro]
 ---
 
 Sometimes it comes the day that [NuGet](https://www.nuget.org/) doesn't see a newer version of a pre-release package. So if you wanted to update to a newer version you must using the `Package Manager Console` with the `-pre` flag. That's because `NuGet` makes a alpanumeric comparison, so e.g. **ALPHA99** is greater than **ALPHA115**.

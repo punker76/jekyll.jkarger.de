@@ -3,7 +3,8 @@ layout:     post
 title:      "Generate WPF ListView columns automatically"
 date:       2011-11-08 23:16 +0100
 comments:   true
-categories: [WPF,C#,Stack Overflow]
+categories: [Develop,Tips&Tricks]
+tags:       [WPF,Xaml,C#,StackOverflow]
 ---
 
 Sometimes it's not necessary to display a list of elements with a `DataGrid`, for a simple short way we can use the lighter `ListView`.

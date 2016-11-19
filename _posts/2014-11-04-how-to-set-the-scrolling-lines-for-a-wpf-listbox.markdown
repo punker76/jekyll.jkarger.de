@@ -3,7 +3,8 @@ layout:     post
 title:      "How to set the scrolling lines for a WPF ListBox?"
 date:       2014-11-04 22:54:02 +0100
 comments:   true
-categories: [WPF,C#]
+categories: [Develop,Tips&Tricks]
+tags:       [WPF,Xaml,C#]
 ---
 
 The default behavior for scrolling with the mouse wheel on a `ListBox` or `ListView` scrolls the entire view 3 lines up or down. That's for the most scenarios ok, but sometimes it could be necessary to scroll only 1 or n lines.
@@ -15,12 +16,13 @@ A simple trick to enable such behavior is to create an attached property to this
 
 ```csharp
 public static readonly DependencyProperty ScrollingLinesProperty =
-  DependencyProperty.RegisterAttached("ScrollingLines",
-                                      typeof(int),
-                                      typeof(SelectorHelper),
-                                      new UIPropertyMetadata(3,
-                                                              OnScrollingLinesPropertyChangedCallback,
-                                                              (o, value) => (int)value <= 0 ? 1 : value));
+  DependencyProperty.RegisterAttached(
+    "ScrollingLines",
+    typeof(int),
+    typeof(SelectorHelper),
+    new UIPropertyMetadata(3,
+                           OnScrollingLinesPropertyChangedCallback, 
+                           (o, value) => (int)value <= 0 ? 1 : value));
 ```
 
 With this property it's now possible to set the scrolling lines on a `ListBox` or `ListView`.

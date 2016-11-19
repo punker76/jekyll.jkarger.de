@@ -3,7 +3,8 @@ layout:     post
 title:      "Modern UI with MahApps.Metro"
 date:       2014-11-18 12:45:34 +0100
 comments:   true
-categories: [Modern UI,MahApps.Metro,WPF,C#]
+categories: [Develop,MahApps.Metro,Tips&Tricks]
+tags:       [WPF,Xaml,C#,UI,MahApps.Metro]
 ---
 
 As a **MahApps.Metro** member I'am often confronted with questions like:

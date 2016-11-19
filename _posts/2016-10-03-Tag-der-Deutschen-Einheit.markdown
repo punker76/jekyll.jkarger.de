@@ -3,7 +3,8 @@ layout:     post
 title:      "Tag der Deutschen Einheit"
 date:       2016-10-03 23:55:00 +0100
 comments:   true
-categories: [private,personal]
+categories: [Private,Personal]
+tags:       [Deutschland,Germany]
 ---
 
 Danke!

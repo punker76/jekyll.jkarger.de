@@ -3,7 +3,8 @@ layout:     post
 title:      "Logitech K400 and Raspberry Pi"
 date:       2012-10-29 21:59:00 +0100
 comments:   true
-categories: [Raspberry Pi,OpenELEC,Raspbmc,XBian,XMBC]
+categories: [Hardware,IoT,Tips&Tricks]
+tags:       [Raspberry Pi,OpenELEC,Raspbmc,XBian,XMBC]
 ---
 
 Sometimes the [debian wheezy raspbian](http://www.raspberrypi.org/downloads) image, [Raspbmc](http://www.raspbmc.com) and [XBian](http://xbian.org) can't find my Logitech K400 keyboard. This tip should help.

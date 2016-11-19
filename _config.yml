@@ -1,41 +1,40 @@
-name: punker76
-description: "Husband Dad T1DM Developer Coder for OSS WPF XAML C# Pascal Delphi Developer of http://mahapps.com Born in east germany. Vinyls and Punks not dead!"
-meta_description: "Private blog from Jan about some thoughts and other stuff."
+# Site settings
+title: punker76
+description: 'another private blog with developer stuff and some thoughts'
+url: 'http://jkarger.de'
+baseurl: '/punker76/'
+google_analytics: 'UA-56992653-1'
+disqus_shortname: 'jkarger'
 
+author:
+  name: 'Jan Karger'
+  email: josh@joshgerdes.com
+  twitter_username: punker76
+  facebook_username: punker76
+  github_username:  punker76
+  linkedin_username:  punker76
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+#permalink: /:year/:title/
+permalink: /:year/:month/:day/:title/
 markdown: kramdown
 highlighter: rouge
+
 kramdown:
+  # use Github Flavored Markdown
   input: GFM
+  # do not replace newlines by <br>s
   hard_wrap: false
-  syntax_highlighter: rouge
 
-logo: false
-paginate: 15
-baseurl: /
-domain_name: 'http://jkarger.de'
-permalink: /archive/:year/:month/:day/:title/
-
-# Details for the RSS feed generator
-url:            'http://jkarger.de'
-author:         'punker76'
-
-# Github repositories
-github_user: punker76
-github_repo_url: https://github.com/punker76/jekyll.jkarger.de
-
-# Twitter
-twitter_user: punker76
-twitter_tweet_button: true
-
-# Disqus Comments
-disqus_short_name: jkarger
-disqus_show_comment_count: true
-
-# Google Analytics
-google_analytics_tracking_id: UA-56992653-1
-
-gems:
-  - jekyll-mentions
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
+gems: ['jekyll-paginate', 'jekyll-mentions', 'jekyll-sitemap', 'jemoji']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

@@ -3,7 +3,8 @@ layout:     post
 title:      "Create new MahApps window in separate thread"
 date:       2016-01-22 15:17:00 +0100
 comments:   true
-categories: [UI,Thread,WPF,MahApps.Metro,C#,XAML]
+categories: [Develop,MahApps.Metro,Tips&Tricks]
+tags:       [WPF,Xaml,C#,UI,Threads,MahApps.Metro]
 ---
 
 So, as the title says, people often want to show a window in a separate ui thread. If we now google about this we can find many articles which explain the whole situation and which also show some code snippets. But sometimes there are situations where this code doesn't work. This is often requested by people who use [MahApps.Metro](https://github.com/MahApps/MahApps.Metro).

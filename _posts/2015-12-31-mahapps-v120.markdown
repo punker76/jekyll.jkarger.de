@@ -3,7 +3,8 @@ layout:     post
 title:      "MahApps.Metro v1.2.0"
 date:       2015-12-31 18:28:33 +0100
 comments:   true
-categories: [Modern,UI,MUI,MahApps.Metro,WPF,C#,XAML,OSS]
+categories: [Develop,MahApps.Metro,Tips&Tricks]
+tags:       [WPF,Xaml,C#,UI,MahApps.Metro]
 ---
 
 I want say thank you to all awesome [users, testers and contributors](https://github.com/MahApps/MahApps.Metro/graphs/contributors). It was a cool year of MahApps (used at Build 2015, published in [magazine](http://www.dotnetpro.de/), published on [pluralsight](https://www.pluralsight.com) with this awesome [course](https://www.pluralsight.com/courses/mahappsdotmetro-creating-modern-wpf-apps) by [Mark Heath](http://mark-dot-net.blogspot.de/p/about-me.html)).
