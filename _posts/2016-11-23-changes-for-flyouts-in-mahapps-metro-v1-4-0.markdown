@@ -7,13 +7,13 @@ categories: [Develop,MahApps.Metro]
 tags:       [WPF,Xaml,C#,UI,MahApps.Metro]
 ---
 
-This changes affects only users who used the sample from the main demo source which shows how to use the `FlyoutsControl` actual width and a `Margin` for the `Flyout` to make it sizable with the window.
+First, this upcoming changes affects only users who used the sample from the main demo source which shows how to use the `FlyoutsControl` actual width and a `Margin` for the `Flyout` to make it sizable with the window.
 
-It's now possible to work without the actual width, now we need only set the `Margin` or `HorizontalContentAlignemnt` for Left/Right and `VerticalContentAnlignment` for Top/Bottom `Flyout`.
+So now it's possible to work without the actual width, now we need only set the Margin or HorizontalContentAlignemnt for Left/Right and VerticalContentAnlignment for Top/Bottom `Flyout`.
 
 Here is a sample how it works before.
 
-```xaml
+```xml
 <Controls:Flyout x:Name="settingsFlyout"
                  Controls:ControlsHelper.ContentCharacterCasing="Upper"
                  Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=Controls:FlyoutsControl}, Path=ActualWidth}"
@@ -26,22 +26,27 @@ You can see it's not possible to set a top or bottom `Margin`, cause it doesn't 
 
 Now it's not necessary to set the width via binding to the actual width of the `FlyoutsControl`. And it's also possible to set all values of the `Margin`.
 
-- `Margin="200 30 0 0"` and `Position="Right"` Flyout with left an top Margin  
-```xaml
+#### Flyout with left an top Margin
+
+```xml
 <Controls:Flyout x:Name="settingsFlyout"
                  Controls:ControlsHelper.ContentCharacterCasing="Upper"
                  Margin="200 30 0 0"
                  Header="Settings"
                  Position="Right" />
-```  
-![]({{ site.url }}/images/flyout01.png)  
+```
+
+![]({{ site.url }}/images/flyout01.png)
+
 ![]({{ site.url }}/images/flyout02.png)
 
-- `HorizontalContentAlignment="Stretch"` and `Position="Right"` Flyout which covers the whole window  
-```xaml
+#### Flyout which covers the whole window
+
+```xml
 <Controls:Flyout CloseButtonIsCancel="True"
                  Header="New Goodness"
                  HorizontalContentAlignment="Stretch"
                  Position="Right" />
-```  
+```
+
 ![]({{ site.url }}/images/flyout03.png)
