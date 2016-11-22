@@ -26,7 +26,7 @@ You can see it's not possible to set a top or bottom `Margin`, cause it doesn't 
 
 Now it's not necessary to set the width via binding to the actual width of the `FlyoutsControl`. And it's also possible to set all values of the `Margin`.
 
-### Flyout with left an top Margin
+### Flyout with left and top Margin
 
 ```xml
 <Controls:Flyout x:Name="settingsFlyout"
