@@ -17,7 +17,7 @@ The `HamburgerMenu` is a `ContentControl` with an item list, an option item list
 
 ## For this sample you need only these steps
 
-- Add the `HamburgerMenu` to the main layout root in your window.  
+- Add the `HamburgerMenu` to the main layout root in your window.
 ```xml
 <controls:HamburgerMenu x:Name="HamburgerMenuControl"
                         Foreground="White"
