@@ -18,6 +18,7 @@ The `HamburgerMenu` is a `ContentControl` with an item list, an option item list
 ## For this sample you need only these steps
 
 - Add the `HamburgerMenu` to the main layout root in your window.
+
 ```xml
 <controls:HamburgerMenu x:Name="HamburgerMenuControl"
                         Foreground="White"
@@ -26,7 +27,9 @@ The `HamburgerMenu` is a `ContentControl` with an item list, an option item list
                         DisplayMode="CompactInline">
 </controls:HamburgerMenu>
 ```
+
 - Specify templates for the items and option items. In this sample I use the `HamburgerMenuGlyphItem` helper class and the `Segoe MDL2 Assets` font family which is only available in windows 10. You can find other samples in this [repository](https://github.com/punker76/code-samples) which uses the other helper classes too.
+
 ```xml
 <DataTemplate x:Key="MenuItemTemplate" DataType="{x:Type controls:HamburgerMenuGlyphItem}">
     <Grid Height="48">
@@ -49,7 +52,9 @@ The `HamburgerMenu` is a `ContentControl` with an item list, an option item list
     </Grid>
 </DataTemplate>
 ```
+
 - Now set these templates to the `HamburgerMenu`.
+
 ```xml
 <controls:HamburgerMenu x:Name="HamburgerMenuControl"
                         ...
@@ -58,7 +63,9 @@ The `HamburgerMenu` is a `ContentControl` with an item list, an option item list
                         ...
                         DisplayMode="CompactInline">
 ```
+
 - Add a template for the content of the `HamburgerMenu`.
+
 ```xml
 <!--  Content  -->
 <controls:HamburgerMenu.ContentTemplate>
@@ -86,7 +93,9 @@ The `HamburgerMenu` is a `ContentControl` with an item list, an option item list
     </DataTemplate>
 </controls:HamburgerMenu.ContentTemplate>
 ```
+
 - Add the items and option items.
+
 ```xml
 <!--  Items  -->
 <controls:HamburgerMenu.ItemsSource>
@@ -122,7 +131,9 @@ The `HamburgerMenu` is a `ContentControl` with an item list, an option item list
     </controls:HamburgerMenuItemCollection>
 </controls:HamburgerMenu.OptionsItemsSource>
 ```
+
 - Set the content for the selected item / option item.
+
 ```xml
 <controls:HamburgerMenu x:Name="HamburgerMenuControl"
                         ...
