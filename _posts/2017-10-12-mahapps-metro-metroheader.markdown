@@ -25,6 +25,8 @@ The `MetroHeader` control is a new control in [MahApps.Metro](https://github.com
 </Controls:MetroHeader>
 ```
 
+![]({{ site.url }}/images/{{ page.url }}/2017-10-11_15h58_35.png)
+
 But, why not use the `GroupBox` directly with a custom style?
 
 ```xml
