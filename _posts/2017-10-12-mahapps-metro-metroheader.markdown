@@ -14,10 +14,11 @@ The `MetroHeader` control is a new control in [MahApps.Metro](https://github.com
     <Controls:MetroHeader.HeaderTemplate>
         <DataTemplate>
             <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
-                <iconPacks:PackIconMaterial VerticalAlignment="Center" Kind="FaceProfile" />
+                <iconPacks:PackIconMaterial VerticalAlignment="Center"
+                                            Kind="FaceProfile" />
                 <TextBlock Margin="2 0 0 0"
-                            VerticalAlignment="Center"
-                            Text="{Binding}" />
+                           VerticalAlignment="Center"
+                           Text="{Binding}" />
             </StackPanel>
         </DataTemplate>
     </Controls:MetroHeader.HeaderTemplate>
@@ -34,10 +35,11 @@ But, why not use the `GroupBox` directly with a custom style?
     <GroupBox.HeaderTemplate>
         <DataTemplate>
             <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
-                <iconPacks:PackIconMaterial VerticalAlignment="Center" Kind="FaceProfile" />
+                <iconPacks:PackIconMaterial VerticalAlignment="Center"
+                                            Kind="FaceProfile" />
                 <TextBlock Margin="2 0 0 0"
-                            VerticalAlignment="Center"
-                            Text="{Binding}" />
+                           VerticalAlignment="Center"
+                           Text="{Binding}" />
             </StackPanel>
         </DataTemplate>
     </GroupBox.HeaderTemplate>
