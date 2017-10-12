@@ -1,24 +1,22 @@
-@import url(uno.css);
-@import url(monokai.css);
+---
+---
+@import "uno";
+@import "tables";
+@import "monokai";
 
 /* Modifications */
 
 pre.highlight,
 .highlight pre {
   padding: 10px;
-  overflow-x: auto;
 }
 
 pre.highlight code,
 .highlight pre code {
-  /*white-space: pre-wrap;
-    -ms-word-wrap: normal;
-    word-wrap: normal;
-    overflow-wrap: normal;
-    white-space: pre; */
+  white-space: pre-wrap;
 }
 
-.btn, 
+.btn,
 .navigation__item a {
   margin: 5px 0;
   white-space: nowrap;
