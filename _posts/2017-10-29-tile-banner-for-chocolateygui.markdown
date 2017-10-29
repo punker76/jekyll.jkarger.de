@@ -16,7 +16,7 @@ We decided to show a `installed` and `out-of-date` status as an overlay banner f
 I played a little bit with `Kaxaml` and found a way to use a `RenderTransform` and `LayoutTransform` with an `Rectangle` and `TextBlock` to get what I want.
 
 <div align="center">
-    <img alt="TileBanner" width="215" heigth="215" src="{{ site.url }}/images/tile_banner.png">
+    <img alt="TileBanner" src="{{ site.url }}/images/tile_banner.png">
 </div>
 
 ```xml
@@ -102,5 +102,9 @@ and `out-of-date` status
                 Foreground="White"
                 Template="{StaticResource OverlayTemplate}" />
 ```
+
+<div align="center">
+    <img alt="TileBannerFinal" src="{{ site.url }}/images/tile_banner_final.png">
+</div>
 
 Happy coding!
