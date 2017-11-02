@@ -4,7 +4,7 @@ title:      "Tile banner for ChocolateyGUI"
 date:       2017-10-29 15:01:46 +0100
 comments:   true
 categories: [Develop,MahApps.Metro,ChocolateyGUI]
-tags:       [WPF,UWP,Xaml,C#,UI,MahApps.Metro,ChocolateyGUI]
+tags:       [WPF,Xaml,C#,UI,MahApps.Metro,ChocolateyGUI]
 ---
 
 Since one week I'm contributing some thoughts to the [ChocolateyGUI](https://github.com/chocolatey/ChocolateyGUI) which is a nice tool for the [chocolatey](https://chocolatey.org/) package manager for Windows.
