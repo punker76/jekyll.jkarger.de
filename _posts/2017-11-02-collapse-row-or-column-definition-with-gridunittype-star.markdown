@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Collapse GridLength with GridUnitType.Star"
+title:      "Collapse Row- or ColumnDefinition with GridUnitType.Star"
 date:       2017-11-02 22:20:08 +0100
 comments:   true
 categories: [Develop,MahApps.Metro,ChocolateyGUI]
