@@ -3,11 +3,11 @@ layout:     post
 title:      "Collapse Row- or ColumnDefinition with GridUnitType.Star"
 date:       2017-11-02 22:20:08 +0100
 comments:   true
-categories: [Develop,MahApps.Metro,ChocolateyGUI]
-tags:       [WPF,Xaml,C#,UI,MahApps.Metro,ChocolateyGUI]
+categories: [Develop,MahApps.Metro,Chocolatey GUI]
+tags:       [WPF,Xaml,C#,UI,MahApps.Metro,Chocolatey GUI]
 ---
 
-Another short blog post about an [issue](https://github.com/chocolatey/ChocolateyGUI/issues/501) which I found at the [ChocolateyGUI](https://github.com/chocolatey/ChocolateyGUI) repository. When I saw this issue, my first thought was, it's an easy one to solve, but only at first sight.
+Another short blog post about an [issue](https://github.com/chocolatey/ChocolateyGUI/issues/501) which I found at the [Chocolatey GUI](https://github.com/chocolatey/ChocolateyGUI) repository. When I saw this issue, my first thought was, it's an easy one to solve, but only at first sight.
 
 The `GridLength` for `ColumnDefinition` or `RowDefinition` can be `GridUnitType.Star`, which means it expands to the available space on the parent container or `GridUnitType.Auto`, which calculates the desired space of the inner child controls.
 
