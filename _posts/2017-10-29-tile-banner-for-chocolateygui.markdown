@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "Tile banner for ChocolateyGUI"
+title:      "Tile banner for Chocolatey GUI"
 date:       2017-10-29 15:01:46 +0100
 comments:   true
-categories: [Develop,MahApps.Metro,ChocolateyGUI]
-tags:       [WPF,Xaml,C#,UI,MahApps.Metro,ChocolateyGUI]
+categories: [Develop,MahApps.Metro,Chocolatey GUI]
+tags:       [WPF,Xaml,C#,UI,MahApps.Metro,Chocolatey GUI]
 ---
 
-Since one week I'm contributing some thoughts to the [ChocolateyGUI](https://github.com/chocolatey/ChocolateyGUI) which is a nice tool for the [chocolatey](https://chocolatey.org/) package manager for Windows.
+Since one week I'm contributing some thoughts to the [Chocolatey GUI](https://github.com/chocolatey/ChocolateyGUI) which is a nice tool for the [chocolatey](https://chocolatey.org/) package manager for Windows.
 
 We are currently implementing a tile UI for the package view. Read and look at the changes in [this PR](https://github.com/chocolatey/ChocolateyGUI/pull/518).
 
