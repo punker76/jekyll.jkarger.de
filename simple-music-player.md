@@ -23,8 +23,8 @@ Ok, er ist nicht perfekt, vieles fehlt oder ist noch fehlerhaft, aber es funktio
 
 ## Download
 
-- [SimpleMP_Setup_v1.1.7.2_BETA.exe](http://jkarger.de/simplemp/SimpleMP_Setup_v1.1.7.2_BETA.exe) 0,97 MB (1.026.436 Bytes) Installationspaket inkl. fmodex.dll (v4.06.01)
-- [SimpleMP_v1.1.7.2_BETA.zip](http://jkarger.de/simplemp/SimpleMP_v1.1.7.2_BETA.zip) 1,03 MB (1.083.693 Bytes) zum entpacken inkl. fmodex.dll (v4.06.01)
+- [SimpleMP_Setup_v1.1.7.2_BETA.exe](https://github.com/punker76/simple-music-player/releases/download/v1.1.x/SimpleMP_Setup_v1.1.7.2_BETA.exe) 0,97 MB (1.026.436 Bytes) Installationspaket inkl. fmodex.dll (v4.06.01)
+- [SimpleMP_v1.1.7.2_BETA.zip](https://github.com/punker76/simple-music-player/releases/download/v1.1.x/SimpleMP_v1.1.7.2_BETA.zip) 1,03 MB (1.083.693 Bytes) zum entpacken inkl. fmodex.dll (v4.06.01)
 
 ## Funktionen
 
