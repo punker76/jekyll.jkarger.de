@@ -13,7 +13,7 @@ If you use a `Button` with a different `Foreground` brush then the original and 
 
 ```xml
 <Button Width="60" Height="60" Margin="2" IsEnabled="False" Foreground="Blue">
-	<iconPacks:PackIconModern Width="20" Height="20" Kind="CitySeattle"/>
+  <iconPacks:PackIconModern Width="20" Height="20" Kind="CitySeattle"/>
 </Button>
 ```
 
@@ -29,11 +29,11 @@ The first solution is to use a `ContentTemplate` for the custom content, cause t
 
 ```xml
 <Button Width="60" Height="60" Margin="2" IsEnabled="False" Foreground="Blue">
-	<Button.ContentTemplate>
-		<DataTemplate>
-			<iconPacks:PackIconModern Width="20" Height="20" Kind="CitySeattle"/>
-		</DataTemplate>
-	</Button.ContentTemplate>
+  <Button.ContentTemplate>
+    <DataTemplate>
+      <iconPacks:PackIconModern Width="20" Height="20" Kind="CitySeattle"/>
+    </DataTemplate>
+  </Button.ContentTemplate>
 </Button>
 ```
 
@@ -47,18 +47,18 @@ The second solution is to use a style for the `Button` which sets the `Foregroun
 
 ```xml
 <Button Width="60" Height="60" Margin="2" IsEnabled="False" Style="{StaticResource AccentButtonStyle}">
-	<iconPacks:PackIconModern Width="20" Height="20" Kind="CitySeattle"/>
+  <iconPacks:PackIconModern Width="20" Height="20" Kind="CitySeattle"/>
 </Button>
 ```
 
 ```xml
 <Style x:Key="AccentButtonStyle" BasedOn="{StaticResource {x:Type Button}}" TargetType="{x:Type Button}">
-	<Setter Property="Foreground" Value="Blue"/>
-	<Style.Triggers>
-		<Trigger Property="IsEnabled" Value="False">
-			<Setter Property="Foreground" Value="Gray"/>
-		</Trigger>
-	</Style.Triggers>
+  <Setter Property="Foreground" Value="Blue"/>
+  <Style.Triggers>
+    <Trigger Property="IsEnabled" Value="False">
+      <Setter Property="Foreground" Value="Gray"/>
+    </Trigger>
+  </Style.Triggers>
 </Style>
 ```
 
@@ -72,11 +72,11 @@ This issue was reported at [MahApps.Metro](https://github.com/MahApps/MahApps.Me
 
 ```xml
 <Trigger Property="IsEnabled" Value="False">
-	<Setter TargetName="PART_ContentPresenter" Property="TextElement.Foreground" Value="{DynamicResource GrayBrush7}" />
-	<!-- This was incorrect!!!
-	<Setter Property="Foreground" Value="{DynamicResource GrayBrush7}" />
-	-->
-	<Setter TargetName="ellipse" Property="Opacity" Value="0.3" />
+  <Setter TargetName="PART_ContentPresenter" Property="TextElement.Foreground" Value="{DynamicResource GrayBrush7}" />
+  <!-- This was incorrect!!!
+  <Setter Property="Foreground" Value="{DynamicResource GrayBrush7}" />
+  -->
+  <Setter TargetName="ellipse" Property="Opacity" Value="0.3" />
 </Trigger>
 ```
 
