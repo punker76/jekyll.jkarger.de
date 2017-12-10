@@ -17,7 +17,7 @@ If you use a `Button` with a different `Foreground` brush then the original and 
 </Button>
 ```
 
-<p align="center">
+<p align="left">
   <img src="{{ site.url }}/images/disabledbutton01.png">
 </p>
 
@@ -37,7 +37,7 @@ The first solution is to use a `ContentTemplate` for the custom content, cause t
 </Button>
 ```
 
-<p align="center">
+<p align="left">
   <img src="{{ site.url }}/images/disabledbutton02.png">
 </p>
 
@@ -62,7 +62,7 @@ The second solution is to use a style for the `Button` which sets the `Foregroun
 </Style>
 ```
 
-<p align="center">
+<p align="left">
   <img src="{{ site.url }}/images/disabledbutton02.png">
 </p>
 
@@ -80,7 +80,7 @@ This issue was reported at [MahApps.Metro](https://github.com/MahApps/MahApps.Me
 </Trigger>
 ```
 
-<p align="center">
+<p align="left">
   <img src="{{ site.url }}/images/disabledbutton03.png">
 </p>
 
