@@ -167,6 +167,42 @@ You and your users should now have a simple way to use your icon pack in their a
 </Grid>
 ```
 
+### [Optional] Create a MarkupExtension
+
+- `PackIconCustomIconsExtension.cs`
+
+```xml
+using System.Windows.Markup;
+using MahApps.Metro.IconPacks;
+
+namespace WpfAppMahAppsIconPacks.CustomIcons
+{
+    [MarkupExtensionReturnType(typeof(PackIconCustomIcons))]
+    public class CustomIconsExtension : PackIconExtension<PackIconCustomIcons, PackIconCustomIconsKind>
+    {
+        public CustomIconsExtension()
+        {
+        }
+
+        public CustomIconsExtension(PackIconCustomIconsKind kind) : base(kind)
+        {
+        }
+    }
+}
+```
+
+Which can be then used like
+
+```xml
+<Grid xmlns:customIcons="clr-namespace:WpfAppMahAppsIconPacks.CustomIcons">
+    <Button Content="{customIcons:CustomIcons AwesomeIcon}" />
+
+    <!-- or -->
+
+    <Button Content="{customIcons:CustomIcons Kind=AwesomeIcon}" />
+</Grid>
+```
+
 The complete sample can be found [here on GitHub](https://github.com/punker76/WpfAppMahAppsIconPacks).
 
 <p align="left">
