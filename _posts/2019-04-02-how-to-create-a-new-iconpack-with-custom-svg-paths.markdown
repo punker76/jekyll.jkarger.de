@@ -170,5 +170,5 @@ You and your users should now have a simple way to use your icon pack in their a
 The complete sample can be found [here on GitHub](https://github.com/punker76/WpfAppMahAppsIconPacks).
 
 <p align="left">
-  <img src="{{ site.url }}/images/2019-04-02_11h00_14.png.png">
+  <img src="{{ site.url }}/images/2019-04-02_11h00_14.png">
 </p>
