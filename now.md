@@ -1,14 +1,14 @@
 ---
 layout   : page
 title    : What I’m doing now
-date     : 2016-09-15 22:00
+date     : 2019-12-12 23:00
 comments : true
 permalink: /now
 ---
 
 ### Short bio
 
-Hey, I'm a husband with 3 wonderful kids and a amazing wife and I'm living and working in Germany by [Aachen](https://goo.gl/maps/YVPxbSf9SA42). I was born in east Germany [GDR](https://goo.gl/maps/Epnt9NBgNZp), so Yes, I'm also a refugee!
+Hey, I'm a husband with 3 wonderful kids and an amazing wife and I'm living and working in Germany by [Aachen](https://goo.gl/maps/YVPxbSf9SA42). I was born in east Germany [GDR](https://goo.gl/maps/Epnt9NBgNZp), so Yes, I'm also a refugee!
 
 Since January 2015 I have [Diabetes mellitus type 1](https://en.wikipedia.org/wiki/Diabetes_mellitus_type_1) which was diagnosed by pure accident.
 
