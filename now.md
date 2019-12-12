@@ -3,14 +3,14 @@ layout   : page
 title    : What I’m doing now
 date     : 2016-09-15 22:00
 comments : true
-permalink: /now/
+permalink: /now
 ---
 
 ### Short bio
 
-Hey, I'm living and working in Germany by [Aachen](https://goo.gl/maps/YVPxbSf9SA42). I was born in east Germany [GDR](https://goo.gl/maps/Epnt9NBgNZp), so Yes, I'm also a refugee!
+Hey, I'm a husband with 3 wonderful kids and a amazing wife and I'm living and working in Germany by [Aachen](https://goo.gl/maps/YVPxbSf9SA42). I was born in east Germany [GDR](https://goo.gl/maps/Epnt9NBgNZp), so Yes, I'm also a refugee!
 
-I have [Diabetes mellitus type 1](https://en.wikipedia.org/wiki/Diabetes_mellitus_type_1) diagnosed on Jan 2015 by pure accident.
+Since January 2015 I have [Diabetes mellitus type 1](https://en.wikipedia.org/wiki/Diabetes_mellitus_type_1) which was diagnosed by pure accident.
 
 My day time goes on these things:
 
@@ -56,11 +56,18 @@ I have also contributed to these projects.
 - Arduino, Raspberry Pi, 3D printer interested
 - Maybe a Nerd
 
+### Conferences
+
+In 2020 you might be able to meet me at the following conferences.
+
+- [Magdeburger Developer Days](https://www.md-devdays.de/) 11. - 13. Mai 2020
+- [dotnet Cologne 2020](https://dotnet-cologne.de/) 29. Mai 2020
+
 ### MVP
 
 I received the [MVP award](https://mvp.microsoft.com/de-de/PublicProfile/5001905) in Visual Studio and Development Technologies in 2015.
 
-I have received the award for the fourth time in Windows Development.
+I have received the MVP award for the fourth time now in Windows Development.
 
 ### Contact
 
