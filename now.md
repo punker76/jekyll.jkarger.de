@@ -8,7 +8,7 @@ permalink: /now
 
 ### Short bio
 
-Hey, I'm a husband with 3 wonderful kids and an amazing wife and I'm living and working in Germany by [Aachen](https://goo.gl/maps/YVPxbSf9SA42). I was born in east Germany [GDR](https://goo.gl/maps/Epnt9NBgNZp), so Yes, I'm also a refugee!
+Hey, I'm a husband with 3 wonderful kids and an amazing wife. I'm living and working in Germany by [Aachen](https://goo.gl/maps/YVPxbSf9SA42), but I was born in east Germany [GDR](https://goo.gl/maps/Epnt9NBgNZp), so Yes, I'm also a refugee!
 
 Since January 2015 I have [Diabetes mellitus type 1](https://en.wikipedia.org/wiki/Diabetes_mellitus_type_1) which was diagnosed by pure accident.
 
@@ -31,7 +31,7 @@ Here is a short list of open source projects where I'm doing some stuff.
 - [Simple Music Player](https://github.com/punker76/simple-music-player) SimpleMP or Simple Music Player is a simple and easy to use music player for free. It plays the most common music files (mp3, ogg, wma, wav) in a simple way.
 - [ControlzEx](https://github.com/ControlzEx) Shared controls for WPF which makes your life easier.
 
-I have also contributed to these projects.
+I'm also help and contribute to these awesome projects.
 
 - [Chocolatey GUI](https://github.com/chocolatey/ChocolateyGUI) Chocolatey GUI is a user interface for [Chocolatey](https://chocolatey.org/) (the Machine Package Manager for Windows).
 - [Material Design In XAML Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) Google Material Design in XAML & WPF, for C# & VB.Net [http://materialdesigninxaml.net](http://materialdesigninxaml.net/)
@@ -39,6 +39,7 @@ I have also contributed to these projects.
 ### Currently working on
 
 - [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) v2.0.0
+- [MahApps.Avalonia.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) for [Avalonia](https://avaloniaui.net/) the cross platform XAML Framework for .NET Framework, .NET Core and Mono
 
 ### Future
 
@@ -51,7 +52,7 @@ I have also contributed to these projects.
 ### Other stuff
 
 - I love punk music and all other rocking stuff #PunksNotDead
-- I'm a Vinyl junkie
+- Yes, I'm a Vinyl junkie
 - I love reading criminal books
 - Arduino, Raspberry Pi, 3D printer interested
 - Maybe a Nerd
@@ -67,7 +68,7 @@ In 2020 you might be able to meet me at the following conferences.
 
 I received the [MVP award](https://mvp.microsoft.com/de-de/PublicProfile/5001905) in Visual Studio and Development Technologies in 2015.
 
-I have received the MVP award for the fourth time now in Windows Development.
+Currently I received the MVP award for the fourth time now in Windows Development.
 
 ### Contact
 
