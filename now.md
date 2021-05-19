@@ -40,7 +40,7 @@ I'm also help(ed) and contribute(d) to these awesome projects.
 ### Currently working on
 
 - [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) v3.0.0
- [GongSolutions.WPF.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) v2.4.0 / v3.0.0
+- [GongSolutions.WPF.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) v2.4.0 / v3.0.0
 - [MahApps.Avalonia.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) for [Avalonia UI](https://avaloniaui.net/) the cross platform XAML Framework for .NET Framework, .NET Core and Mono
 
 ### Future (ongoing projects)
